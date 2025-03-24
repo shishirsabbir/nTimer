@@ -1,5 +1,5 @@
 # ⏲️ nTimer - nativeSphere's Elite Time-Wrangling Wizard
-
+a
 <br>
 
 > ### 📖 Project Introduction
@@ -43,6 +43,8 @@ The application consists of the following pages:
 2. ⏱️ **Timer**: A page for starting, pausing, and resuming the timer, as well as noting down task lists and updating the current status.
 
 3. 🔍 **Spyglass**: A page to view other developers' statistics, including their daily, weekly, and monthly work time, and the tasks they have completed, fostering inspiration and collaboration.
+
+4. ⏳ **Rulebook**: A page where developers can see how much time they need to complete every day, every week, and every month, ensuring they stay on track with their goals.
 
 
 <br>
