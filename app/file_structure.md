@@ -1,10 +1,22 @@
-# 🕒 nTimer Project Documentation
-
 ## 📂 Project Structure: `nTimer`
+
+
+### 🛠️ Description:
+The `nTimer` project is a modular and scalable application designed with a focus on clean architecture and maintainability. It leverages FastAPI for building robust APIs, SQLAlchemy for database interactions, and Alembic for managing schema migrations. The project is structured to separate concerns effectively, ensuring that each component has a clear and specific responsibility.
+
+Key features include:
+- **API-first Design**: All backend services are exposed through well-defined APIs.
+- **Versioned Endpoints**: Organized API routes to support future scalability.
+- **Database Models and Schemas**: Clear separation between database models and Pydantic schemas for validation.
+- **Business Logic Layer**: Encapsulated services to handle core application logic.
+- **Testing**: Comprehensive unit and integration tests to ensure reliability.
+- **Utility Functions**: Reusable helpers to simplify common tasks.
+
+This structure promotes readability, testability, and ease of collaboration among developers.
 
 ```
 nTimer/
-├── app/
+├── app/                       # 🌐 API-first approach for backend services
 │   ├── __init__.py
 │   ├── main.py                # 🚀 Entry point for the FastAPI application
 │   ├── core/                  # ⚙️ Core application logic and configuration
@@ -35,16 +47,6 @@ nTimer/
 │   │   ├── __init__.py
 │   │   ├── session.py         # 🛠️ SQLAlchemy session and engine
 │   │   └── init_db.py         # 🏗️ Database initialization script
-│   ├── templates/             # 🖼️ Jinja2 templates for rendering HTML
-│   │   ├── base.html          # 🏠 Base template
-│   │   ├── dashboard.html     # 📊 Dashboard page
-│   │   ├── timer.html         # ⏱️ Timer page
-│   │   ├── spyglass.html      # 🔍 Spyglass page
-│   │   └── rulebook.html      # 📖 Rulebook page
-│   ├── static/                # 🎨 Static files (CSS, JS, images)
-│   │   ├── css/
-│   │   ├── js/
-│   │   └── images/
 │   ├── utils/                 # 🛠️ Utility functions and helpers
 │   │   ├── __init__.py
 │   │   └── time_utils.py      # ⏳ Time-related utility functions
