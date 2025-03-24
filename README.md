@@ -1,4 +1,4 @@
-# ⏲️ nTimer - nativeSphere Time Investment Management App
+# ⏲️ nTimer - nativeSphere's Elite Time-Wrangling Wizard
 
 <br>
 
